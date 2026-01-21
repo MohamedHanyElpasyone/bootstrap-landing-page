@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- ===== HEADER ===== -->
-    <header>
+    <header class="fixed-top">
       <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-3">
         <div class="container">
           <a href="#" class="navbar-brand">Frontend Bootcamp</a>
@@ -46,7 +46,7 @@
     </header>
 
     <!-- ===== MAIN ===== -->
-    <main>
+    <main class="pt-5">
       <!-- === SHOWCASE === -->
       <section
         class="bg-dark text-light text-center text-sm-start p-5 p-lg-0 pt-lg-5"
@@ -102,7 +102,7 @@
         </div>
       </section>
 
-      <!-- ===BOXES=== -->
+      <!-- === BOXES === -->
       <section class="p-5">
         <div class="container">
           <div class="row text-center g-4">
@@ -155,7 +155,7 @@
         </div>
       </section>
 
-      <!-- ===LEARN SECTIONS=== -->
+      <!-- === LEARN SECTIONS === -->
       <section class="p-5" id="learn">
         <div class="container">
           <div class="row justify-content-between align-items-center">
@@ -204,6 +204,169 @@
             </div>
             <div class="col-md">
               <img class="img-fluid" src="./assets/react.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- === QUESTION ACCORDION === -->
+      <section class="p-5" id="questions">
+        <div class="container">
+          <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+          <div class="accordion accordion-flush" id="questions-accordion">
+            <!-- == Question One == -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-one"
+                  aria-expanded="false"
+                  aria-controls="question-one"
+                >
+                  Where exactly are you located?
+                </button>
+              </h2>
+              <div
+                id="question-one"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions-accordion"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit distinctio suscipit quis animi molestias facere
+                  aliquid doloribus ea est, perspiciatis repudiandae hic. Ipsam
+                  vel laborum architecto et, assumenda consequatur nihil
+                  reprehenderit rerum, molestias reiciendis quos ducimus. Iure
+                  doloribus, corrupti at quasi pariatur libero vitae. Sint
+                  provident cumque ipsum temporibus rem?
+                </div>
+              </div>
+            </div>
+
+            <!-- == Question Two == -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-two"
+                  aria-expanded="false"
+                  aria-controls="question-two"
+                >
+                  How much does it cost to attend?
+                </button>
+              </h2>
+              <div
+                id="question-two"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions-accordion"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere itaque laboriosam ea cum eum repellendus!
+                  Necessitatibus unde cumque, debitis neque odio quod commodi
+                  officia quos repudiandae placeat eligendi voluptates pariatur
+                  in ab reprehenderit magnam alias eius animi. Aliquid,
+                  voluptates ipsam voluptate placeat, eveniet atque corrupti
+                  obcaecati architecto molestiae nobis maxime?
+                </div>
+              </div>
+            </div>
+
+            <!-- == Question Three == -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-three"
+                  aria-expanded="false"
+                  aria-controls="question-three"
+                >
+                  What do I need to Know?
+                </button>
+              </h2>
+              <div
+                id="question-three"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions-accordion"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere itaque laboriosam ea cum eum repellendus!
+                  Necessitatibus unde cumque, debitis neque odio quod commodi
+                  officia quos repudiandae placeat eligendi voluptates pariatur
+                  in ab reprehenderit magnam alias eius animi. Aliquid,
+                  voluptates ipsam voluptate placeat, eveniet atque corrupti
+                  obcaecati architecto molestiae nobis maxime?
+                </div>
+              </div>
+            </div>
+
+            <!-- == Question Four == -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-four"
+                  aria-expanded="false"
+                  aria-controls="question-four"
+                >
+                  How Do I sign up?
+                </button>
+              </h2>
+              <div
+                id="question-four"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions-accordion"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere itaque laboriosam ea cum eum repellendus!
+                  Necessitatibus unde cumque, debitis neque odio quod commodi
+                  officia quos repudiandae placeat eligendi voluptates pariatur
+                  in ab reprehenderit magnam alias eius animi. Aliquid,
+                  voluptates ipsam voluptate placeat, eveniet atque corrupti
+                  obcaecati architecto molestiae nobis maxime?
+                </div>
+              </div>
+            </div>
+
+            <!-- == Question Five == -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-five"
+                  aria-expanded="false"
+                  aria-controls="question-five"
+                >
+                  Do you help me find a job?
+                </button>
+              </h2>
+              <div
+                id="question-five"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions-accordion"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere itaque laboriosam ea cum eum repellendus!
+                  Necessitatibus unde cumque, debitis neque odio quod commodi
+                  officia quos repudiandae placeat eligendi voluptates pariatur
+                  in ab reprehenderit magnam alias eius animi. Aliquid,
+                  voluptates ipsam voluptate placeat, eveniet atque corrupti
+                  obcaecati architecto molestiae nobis maxime?
+                </div>
+              </div>
             </div>
           </div>
         </div>
