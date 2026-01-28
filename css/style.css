@@ -3,3 +3,9 @@
 .flex-basis-50 {
   flex-basis: 50%;
 }
+
+/* HEIGHT CLASSES */
+
+.min-vh-50 {
+  min-height: 50vh;
+}
