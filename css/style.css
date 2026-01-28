@@ -9,3 +9,10 @@
 .min-vh-50 {
   min-height: 50vh;
 }
+
+/* STYLES */
+
+.form-enroll-style {
+  max-height: 50vh;
+  overflow-y: auto;
+}
