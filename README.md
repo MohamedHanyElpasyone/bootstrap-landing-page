@@ -1,11 +1,11 @@
-# Bootstrap Landing Page
+# Frontend Bootcamp
 
-A **responsive landing page** built with **Bootstrap 5**, focusing on modern layout, responsiveness, and clean design.
+A **responsive landing Bootcamp for frontend page** built with **Bootstrap 5**, focusing on modern layout, responsiveness, and clean design.
 
 ---
 
 ## Version
- (in progress)
+ (1.0.0)
 
 ---
 
@@ -18,7 +18,7 @@ A **responsive landing page** built with **Bootstrap 5**, focusing on modern lay
 ---
 
 ## 🚀 Live Demo
-Not yet available
+[Live Demo](https://bootcamp-for-frontend.netlify.app)
 
 ---
 
