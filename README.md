@@ -23,7 +23,7 @@ A **responsive landing Bootcamp for frontend page** built with **Bootstrap 5**, 
 ---
 
 ## 📂 Project Status
-Done
+**Done**
 ---
 
 ## 📬 Contact
