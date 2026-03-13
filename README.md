@@ -23,9 +23,8 @@ A **responsive landing Bootcamp for frontend page** built with **Bootstrap 5**, 
 ---
 
 ## 📂 Project Status
-**In progress** – Still improving and optimizing
-
+Done
 ---
 
 ## 📬 Contact
-Feel free to reach out for questions or feedback.
+Feel free to reach out via the contact section on [my website](https://bootcamp-for-frontend.netlify.app).
